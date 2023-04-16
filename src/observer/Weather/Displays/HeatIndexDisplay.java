@@ -11,7 +11,9 @@ public class HeatIndexDisplay implements Observer, DisplayElement{
         weatherData.registerObserver(this);
     }
 
-    public void update(float temperature, float humidity, float pressure) {
+    public void update() {
+        float temperature = this.weatherData.getTemperature();
+        float humidity = this.weatherData.getHumidity();
         heatIndex = computeHeatIndex(temperature, humidity);
         display();
     }
