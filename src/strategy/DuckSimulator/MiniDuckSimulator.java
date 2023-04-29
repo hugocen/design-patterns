@@ -1,7 +1,7 @@
-package strategy;
+package strategy.DuckSimulator;
 
-import strategy.Behaviors.Fly.*;
-import strategy.Ducks.*;
+import strategy.DuckSimulator.Behaviors.Fly.*;
+import strategy.DuckSimulator.Ducks.*;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {

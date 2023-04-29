@@ -1,4 +1,4 @@
-package strategy.Behaviors.Fly;
+package strategy.DuckSimulator.Behaviors.Fly;
 
 public class FlyRocketPowered implements FlyBehavior {
     public void fly() {
